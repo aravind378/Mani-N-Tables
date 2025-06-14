@@ -1,0 +1,709 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+:root {
+  --primary-color: #5b4cbd;
+  --font-color: #f6f6f6;
+  --secondary-color : #242424;
+  --third-color: #e24701;
+}
+
+
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+}
+
+.child{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.arrow-btn{
+    padding: 20px 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.fa-arrow-left{
+    background-color: var(--font-color);
+    padding: 10px 12px;
+    border-radius: 25px;
+}
+
+.fa-share-nodes{
+    background-color: var(--font-color);
+    padding: 10px 12px;
+    border-radius: 25px;
+}
+
+.fa-heart{
+   background-color: var(--font-color);
+    padding: 10px 12px;
+    border-radius: 25px; 
+}
+
+.fa-star{
+    color: var(--third-color);
+}
+
+.share-btn{
+    display: flex;
+    gap: 20px;
+}
+
+.child-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+iframe{
+    border-radius: 25px;
+}
+
+.child-2{
+    width: 100%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 480px;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.offers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.offers p{
+    margin-bottom: 0px;
+}
+
+.offer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(194, 194, 194);
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: green;
+}
+
+.offer img{
+    width: 20px;
+}
+
+.fa-star{
+    color: var();
+}
+
+.reviews{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#liber{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.about-of{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+}
+
+.main-items{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+}
+
+.time-of img{
+    width: 15px;
+}
+
+.time-of p{
+    margin-bottom: 0px;
+}
+
+.time-of{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.four-btns {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+.four-btns button {
+    width: 25%;
+    padding: 10px;
+    border:none ;
+    font-weight: 600;
+    background-color: white;
+    border-bottom: 1px solid var(--font-color);
+}
+
+#about {
+    border-bottom: 3px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+
+.book-btn{
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 600;
+    padding: 8px 0px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+}
+
+.one-btn{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    padding: 10px;
+    border-top: 1px solid var(--font-color);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: white;
+}
+
+/* menu start */
+#div1{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+#men{
+    font-weight: 600;
+}
+
+#men span{
+    color: var(--primary-color);
+}
+
+.search-bar{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 40%;
+    border: none;
+    background-color: var(--font-color);
+    color: gray;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 4px;
+    border-radius: 6px;
+    outline: none;
+}
+
+.fa-magnifying-glass{
+    padding: 0px 8px;
+}
+
+.search-bar input{
+    border: none;
+    background-color: transparent;
+    padding-left: 4px;
+    outline: none;
+    width: 100%;  
+}
+
+.main-foods{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.veg-items{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.veg-in p{
+    margin-bottom: 0px;
+}
+
+.veg-in{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    padding: 5px 10px;
+}
+
+.veg-in img{
+    width: 20px;
+}
+
+.food-images{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.food-image img{
+    width: 170px;
+}
+
+.food-image p{
+    margin-bottom: 0px;
+}
+
+.food-image{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 10px; */
+}
+
+/* menu end */
+
+/* about start */
+#div2 {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+
+.lady{
+    width: 100px;
+}
+
+.restaurant{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#rant{
+    margin-bottom: 0px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.rest-content{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+.main-rest{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#bessie{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#owner{
+    color: grey;
+}
+
+.main-rest p{
+    margin-bottom: 0px;
+}
+
+.contact-of img{
+    width: 50px;
+    padding: 10px;
+    border: 1px solid var(--font-color);
+    border-radius: 25px;
+}
+
+#main-about{
+    font-weight: 600;
+}
+
+.one-btn{
+    display: none;
+}
+
+.one-btn-1{
+    width: 100%;
+}
+
+.book-btn-1{
+    width: 30%;
+    padding: 8px;
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+}
+
+/* about end */
+
+/* gallery start */
+
+#div3{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#gall{
+    font-weight: 600;
+}
+
+#gall span{
+    color: var(--primary-color);
+}
+
+.gallery-images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery-images img{
+    width: 200px;
+    border-radius: 8px;
+}
+
+/* gallery end */
+
+/* review start */
+
+#div4{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.review-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#view{
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+.review-btn{
+    background-color: transparent;
+    color: var(--primary-color);
+    font-weight: 600;
+    border: none;
+}
+
+.view-review{
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+}
+
+.view{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.view-of{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+
+.view img{
+    width: 70px;
+}
+
+.star-image{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.star-image img{
+    width: 20px;
+}
+
+.dale{
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.date-of{
+    font-size: 12px;
+    color: grey;
+    margin-bottom: 0px;
+}
+
+
+/* review end */
+
+/* Popup Box */
+.input-review img{
+    width: 100px;
+}
+
+.input-review{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#libe{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+#how-is{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.time-of-1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.time-of-1 img{
+    width: 20px;
+}
+
+.time-of-1 p{
+    margin-bottom: 0px;
+}
+
+.modal-body{
+    width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+}
+
+.over-all p{
+    margin-bottom: 0px;
+    color: grey;
+}
+
+.over-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.reviews-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.second{
+    background-color: var(--third-color) !important;
+    color: white !important;
+    font-weight: 600 !important;
+}
+
+.reviews-images button{
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.reviews-images button:hover{
+    color: var(--primary-color);
+}
+
+.reviews-images button:focus{
+    color: var(--primary-color) !important;
+}
+
+.add-detail p{
+    margin-bottom: 0px;
+}
+
+.add-detail textarea{
+    width: 100%;
+    padding: 10px;
+}
+
+.add-detail input{
+    width: 100%;
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+.add-detail{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+@media screen and (min-width:320px) and (max-width: 768px){
+    iframe{
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+    }
+
+    .child-2{
+        top: 150px;
+        padding: 10px;
+    }
+
+    #liber{
+        font-size: 22px;
+    }
+
+    .about-of{
+        gap: 10px;
+    }
+
+    .main-items{
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .restaurant{
+        margin-bottom: 60px;
+    }
+
+    .lady{
+        width: 35%;
+    }
+
+    #bessie{
+        font-size: 14px;
+    }
+
+    #owner{
+        font-size: 12px;
+    }
+
+    .main-rest{
+        gap: 0px;
+    }
+
+    #rant{
+        font-size: 18px;
+    }
+
+    .contact-of{
+        display: flex;
+        gap: 10px;
+    }
+
+    .contact-of img{
+        width: 43%;
+    }
+
+    .one-btn{
+        display: unset;
+    }
+
+    .one-btn-1{
+        display: none;
+    }
+
+    .gallery-images{
+        margin-bottom: 70px;
+    }
+
+    .gallery-images img{
+        width: 120px;
+    }
+
+    .main-foods{
+        flex-direction: column;
+    }
+
+    .search-bar{
+        width: 100%;
+    }
+
+    .veg-items{
+        width: 100%;
+        overflow-x: auto;
+        gap: 10px;
+    }
+
+    .veg-in{
+        min-width: fit-content;
+    }
+
+    .food-image img{
+        width: 140px;
+    }
+}

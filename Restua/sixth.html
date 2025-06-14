@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE BOOKING-6</title>
+
+    <!-- style sheet  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- style sheet  -->
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <!-- google font  -->
+
+    <!-- fontawesome  -->
+    <script src="https://kit.fontawesome.com/4b4d66f7f6.js" crossorigin="anonymous"></script>
+    <!-- fontawesome  -->
+
+    <!-- bootsrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <!-- bootsrap  -->
+
+</head>
+
+<body>
+
+
+  <!-- navi start -->
+          <div class="navi">
+
+            <div class="right-navi">
+              <img src="./Images/n-table.png" alt="">
+            </div>
+
+            <div class="middle-navi">
+                <div class="search">
+                    <p><i class="fa-solid fa-magnifying-glass" style="color: gray;"></i></p>
+                    <input type="text" placeholder="Search Here. . . . . . ">
+                    <p><i class="fa-solid fa-arrow-down" style="color: gray;"></i></p>
+                </div>
+            </div>
+
+            <div class="left-navi">
+                <img src="./Images/notification-black.png" alt="">
+            </div>    
+
+          </div>
+          <!-- navi end -->
+
+
+
+    <!-- parent start  -->
+    <div class="parent">
+
+      <div class="mobile-search">
+          <p><i class="fa-solid fa-magnifying-glass" style="color: gray;"></i></p>
+          <input type="text" placeholder="Search Here. . . . . . ">
+          <p><i class="fa-solid fa-arrow-down" style="color: gray;"></i></p>
+      </div>
+
+      <!-- child 1 start  -->
+        <div class="child-1">
+
+
+          <div class="small-navi">
+
+            <!-- Button trigger modal -->
+            <!-- <button type="button" class="btn btn-primary" > -->
+              <div class="location" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              <p><i class="fa-solid fa-location-dot" style="color:#e24701;"></i></p>
+              <input class="city" type="text" placeholder="New York, USA">
+            </div>
+              <!-- Launch static backdrop modal -->
+            <!-- </button> -->
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-body">
+                              <div class="location-sympol">
+                                <img src="./Images/location-pin.png" alt="">
+                              </div>
+
+                              <div class="heading">
+                                <p class="verify-code">What is Your Location ?</p>
+                                <p class="email-1">We Need your Location  to Show Available Nearby Restuarants.</p>
+                              </div>
+
+                              <a class="verify" href="">Allow Location Access</a>
+                              <a class="verify-1" href="">Enter Location Manually</a>  
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <p class="small-navi-text"><img src="./Images/setting.png" alt="">&nbsp;<span class="small-navi-span"> Filter</span> </p>
+            <p class="small-navi-text"><img src="./Images/AC-1.png" alt="" id="ac">&nbsp;<span class="small-navi-span"> AC</span></p>
+            <p class="small-navi-text"><img src="./Images/veg.png" alt="">&nbsp;<span class="small-navi-span"> Pure-Veg</span></p>
+            <p class="small-navi-text"><img src="./Images/non-veg.png" alt="">&nbsp;<span class="small-navi-span"> Non-Veg</span></p>
+          </div>
+
+          <hr>
+
+
+          <div class="spl-offer-see-all">
+            <p class="spl-offer">Special Offers</p>
+            <p class="see-all">See All</p>
+          </div>
+
+
+          <!-- sub child 1 start  -->
+          <div class="sub-child-1">
+
+            <!-- carousel start -->
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active" data-bs-interval="2000">
+
+                      <div class="three-images">
+                        <div class="images">
+                          <img src="./images/women.jpg" alt="..." >
+                        </div>
+                        
+                        <div class="images">
+                          <img src="./images/women.jpg" alt="..." >
+                        </div>
+
+                        <div class="images">
+                          <img src="./images/women.jpg" alt="..." >
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="2000">
+
+                      <div class="three-images">
+                        <div class="images">
+                          <img src="./images/women.jpg" alt="..." >
+                        </div>
+                        
+                        <div class="images">
+                          <img src="./images/women.jpg" alt="..." >
+                        </div>
+
+                        <div class="images">
+                          <img src="./images/women.jpg" alt="..." >
+                        </div>
+                      </div>  
+
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="2000">
+
+                      <div class="three-images">
+                        <div class="images">
+                          <img src="./images/women.jpg" alt="..." >
+                        </div>
+                        
+                        <div class="images">
+                          <img src="./images/women.jpg" alt="..." >
+                        </div>
+
+                        <div class="images">
+                          <img src="./images/women.jpg" alt="..." >
+                        </div>
+                      </div>
+
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+
+            </div>
+            <!-- carousel end -->
+
+
+             <!-- mobile carousel start -->
+             <div id="carouselExampleInterval" class="carousel slide mobile-carousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active mobile-carousel-image" data-bs-interval="2000">
+                        <img src="./Images/women.jpg" class="d-block w-100" alt="...">
+                    </div>
+
+                    <div class="carousel-item mobile-carousel-image" data-bs-interval="2000">
+                        <img src="./Images/women.jpg" class="d-block w-100" alt="...">
+                    </div>
+
+                    <div class="carousel-item mobile-carousel-image" data-bs-interval="2000">
+                        <img src="./Images/women.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- mobile carousel end -->
+
+
+
+          </div>
+          <!-- sub child 1 end  -->
+
+        </div>
+        <!-- child 1 end -->
+
+
+        <!-- child 2  start -->
+          <div class="child-2">
+
+            <div class="cuisines-see-all">
+                  <p class="cuisines">Cuisines</p>
+                  <p class="see-all">See All</p>
+            </div>
+
+            <div class="sub-child-2">
+
+                  <div class="cuisines-box">
+                    <div class="sub-cuisines-box-1">
+                      <p></p>
+                    </div>
+                    <p>Indian</p>
+                  </div>
+
+                  <div class="cuisines-box">
+                    <div class="sub-cuisines-box-2">
+                      <p></p>
+                    </div>
+                    <p>Mexican</p>
+                  </div>
+
+                  <div class="cuisines-box">
+                    <div class="sub-cuisines-box-3">
+                      <p></p>
+                    </div>
+                    <p>Chinese</p>
+                  </div>
+
+                  <div class="cuisines-box">
+                    <div class="sub-cuisines-box-4">
+                      <p></p>
+                    </div>
+                    <p>Japanese</p>
+                  </div>
+
+                  <div class="cuisines-box">
+                    <div class="sub-cuisines-box-1">
+                      <p></p>
+                    </div>
+                    <p>Thai</p>
+                  </div>
+
+                  <div class="cuisines-box">
+                    <div class="sub-cuisines-box-2">
+                      <p></p>
+                    </div>
+                    <p>Korean</p>
+                  </div>
+
+                  <div class="cuisines-box">
+                    <div class="sub-cuisines-box-3">
+                      <p></p>
+                    </div>
+                    <p>Chinese</p>
+                  </div>
+
+                  <div class="cuisines-box">
+                    <div class="sub-cuisines-box-4">
+                      <p></p>
+                    </div>
+                    <p>South Indian</p>
+                  </div>
+
+            </div>
+
+          </div>
+          <!-- child 2  end -->
+
+
+
+          <!-- child 3  start -->
+          <div class="child-3">
+
+            <div class="popular-rest-see-all">
+                  <p class="popular-rest">Popular Restaurants</p>
+                  <p class="see-all">See All</p>
+            </div>
+
+            <!-- sub child 3 start -->
+            <div class="sub-child-3">
+
+              <div class="rest-view-details" onclick="window.location.href='../Rest/index.html'">
+                
+                <div class="rest-view">
+                  <img src="./Images/1.jpg" alt="" class="hotel-image">
+                  <button class="heart"><i class="fa-solid fa-heart"></i></button>
+                  <p class="offer" style="color: #2DA100;"><img src="./Images/discount.png" alt="" class="discount"> 15% OFF</p>
+                </div>
+
+                <div class="rest-details">
+                  <div class="name-rating">
+                    <p class="name">Manikandan Diner</p>
+                    <p class="rating"><img src="./Images/star.png" alt="" class="star"> 5.0</p>
+                  </div>
+                  <p class="time-price"><img src="./Images/time.png" alt="" class="ico">&nbsp;  20min  &nbsp;•&nbsp;  <img src="./Images/wallet-filled-money-tool.png" alt="" class="ico">&nbsp; $$$  &nbsp;•&nbsp;  <img src="./Images/food-tray.png" alt="" class="ico"> &nbsp;Mexican</p>
+                  <p class="location-1"><img src="./Images/location-pin.png" alt="" class="ico"> 3517 W,Gray St, USA</p>
+                </div>
+
+              </div>
+
+              <div class="rest-view-details" onclick="window.location.href='../Rest/index.html'">
+                
+                <div class="rest-view">
+                  <img src="./Images/2.jpg" alt="" class="hotel-image">
+                  <button class="heart"><i class="fa-solid fa-heart"></i></button>
+                  <p class="offer" style="color: #2DA100;"><img src="./Images/discount.png" alt="" class="discount"> 15% OFF</p>
+                </div>
+
+                <div class="rest-details" onclick="window.location.href='../Rest/index.html'">
+                  <div class="name-rating">
+                    <p class="name">Manikandan Diner</p>
+                    <p class="rating"><img src="./Images/star.png" alt="" class="star"> 5.0</p>
+                  </div>
+                  <p class="time-price"><img src="./Images/time.png" alt="" class="ico">&nbsp;  20min  &nbsp;•&nbsp;  <img src="./Images/wallet-filled-money-tool.png" alt="" class="ico">&nbsp; $$$  &nbsp;•&nbsp;  <img src="./Images/food-tray.png" alt="" class="ico"> &nbsp;Mexican</p>
+                  <p class="location-1"><img src="./Images/location-pin.png" alt="" class="ico"> 3517 W,Gray St, USA</p>
+                </div>
+                
+              </div>
+
+              <div class="rest-view-details" onclick="window.location.href='../Rest/index.html'">
+                
+                <div class="rest-view">
+                  <img src="./Images/3.jpg" alt="" class="hotel-image">
+                  <button class="heart"><i class="fa-solid fa-heart"></i></button>
+                  <p class="offer" style="color: #2DA100;"><img src="./Images/discount.png" alt="" class="discount"> 15% OFF</p>
+                </div>
+
+                <div class="rest-details">
+                  <div class="name-rating">
+                    <p class="name">Manikandan Diner</p>
+                    <p class="rating"><img src="./Images/star.png" alt="" class="star"> 5.0</p>
+                  </div>
+                  <p class="time-price"><img src="./Images/time.png" alt="" class="ico">&nbsp;  20min  &nbsp;•&nbsp;  <img src="./Images/wallet-filled-money-tool.png" alt="" class="ico">&nbsp; $$$  &nbsp;•&nbsp;  <img src="./Images/food-tray.png" alt="" class="ico"> &nbsp;Mexican</p>
+                  <p class="location-1"><img src="./Images/location-pin.png" alt="" class="ico"> 3517 W,Gray St, USA</p>
+                </div>
+                
+              </div>
+
+            </div>
+            <!-- sub child 3 end -->
+
+          </div>
+          <!-- child 3  end -->
+
+
+
+            <!-- child 3  start -->
+          <div class="child-3">
+
+            <div class="popular-rest-see-all">
+                  <p class="popular-rest">Top Rated Restaurants</p>
+                  <p class="see-all">See All</p>
+            </div>
+
+            <!-- sub child 3 start -->
+            <div class="sub-child-3">
+
+              <div class="rest-view-details" onclick="window.location.href='../Rest/index.html'">
+                
+                <div class="rest-view">
+                  <img src="./Images/4.jpg" alt="" class="hotel-image">
+                  <button class="heart"><i class="fa-solid fa-heart"></i></button>
+                  <p class="offer" style="color: #2DA100;"><img src="./Images/discount.png" alt="" class="discount"> 15% OFF</p>
+                </div>
+
+                <div class="rest-details">
+                  <div class="name-rating">
+                    <p class="name">Manikandan Diner</p>
+                    <p class="rating"><img src="./Images/star.png" alt="" class="star"> 5.0</p>
+                  </div>
+                  <p class="time-price"><img src="./Images/time.png" alt="" class="ico">&nbsp;  20min  &nbsp;•&nbsp;  <img src="./Images/wallet-filled-money-tool.png" alt="" class="ico">&nbsp; $$$  &nbsp;•&nbsp;  <img src="./Images/food-tray.png" alt="" class="ico"> &nbsp;Mexican</p>
+                  <p class="location-1"><img src="./Images/location-pin.png" alt="" class="ico"> 3517 W,Gray St, USA</p>
+                </div>
+
+              </div>
+
+              <div class="rest-view-details" onclick="window.location.href='../Rest/index.html'">
+                
+                <div class="rest-view">
+                  <img src="./Images/5.jpg" alt="" class="hotel-image">
+                  <button class="heart"><i class="fa-solid fa-heart"></i></button>
+                  <p class="offer" style="color: #2DA100;"><img src="./Images/discount.png" alt="" class="discount"> 15% OFF</p>
+                </div>
+
+                <div class="rest-details">
+                  <div class="name-rating">
+                    <p class="name">Manikandan Diner</p>
+                    <p class="rating"><img src="./Images/star.png" alt="" class="star"> 5.0</p>
+                  </div>
+                  <p class="time-price"><img src="./Images/time.png" alt="" class="ico">&nbsp;  20min  &nbsp;•&nbsp;  <img src="./Images/wallet-filled-money-tool.png" alt="" class="ico">&nbsp; $$$  &nbsp;•&nbsp;  <img src="./Images/food-tray.png" alt="" class="ico"> &nbsp;Mexican</p>
+                  <p class="location-1"><img src="./Images/location-pin.png" alt="" class="ico"> 3517 W,Gray St, USA</p>
+                </div>
+                
+              </div>
+
+              <div class="rest-view-details" onclick="window.location.href='../Rest/index.html'">
+                
+                <div class="rest-view">
+                  <img src="./Images/6.jpg" alt="" class="hotel-image">
+                  <button class="heart"><i class="fa-solid fa-heart"></i></button>
+                  <p class="offer" style="color: #2DA100;"><img src="./Images/discount.png" alt="" class="discount"> 15% OFF</p>
+                </div>
+
+                <div class="rest-details">
+                  <div class="name-rating">
+                    <p class="name">Manikandan Diner</p>
+                    <p class="rating"><img src="./Images/star.png" alt="" class="star"> 5.0</p>
+                  </div>
+                  <p class="time-price"><img src="./Images/time.png" alt="" class="ico">&nbsp;  20min  &nbsp;•&nbsp;  <img src="./Images/wallet-filled-money-tool.png" alt="" class="ico">&nbsp; $$$  &nbsp;•&nbsp;  <img src="./Images/food-tray.png" alt="" class="ico"> &nbsp;Mexican</p>
+                  <p class="location-1"><img src="./Images/location-pin.png" alt="" class="ico"> 3517 W,Gray St, USA</p>
+                </div>
+                
+              </div>
+
+            </div>
+            <!-- sub child 3 end -->
+
+          </div>
+          <!-- child 3  end -->
+
+
+
+            <!-- child 3  start -->
+          <div class="child-3">
+
+            <div class="popular-rest-see-all">
+                  <p class="popular-rest">Pure-Veg Restaurants</p>
+                  <p class="see-all">See All</p>
+            </div>
+
+            <!-- sub child 3 start -->
+            <div class="sub-child-3">
+
+              <div class="rest-view-details" onclick="window.location.href='../Rest/index.html'">
+                
+                <div class="rest-view">
+                  <img src="./Images/7.jpg" alt="" class="hotel-image">
+                  <button class="heart"><i class="fa-solid fa-heart"></i></button>
+                  <p class="offer" style="color: #2DA100;"><img src="./Images/discount.png" alt="" class="discount"> 15% OFF</p>
+                </div>
+
+                <div class="rest-details">
+                  <div class="name-rating">
+                    <p class="name">Manikandan Diner</p>
+                    <p class="rating"><img src="./Images/star.png" alt="" class="star"> 5.0</p>
+                  </div>
+                  <p class="time-price"><img src="./Images/time.png" alt="" class="ico">&nbsp;  20min  &nbsp;•&nbsp;  <img src="./Images/wallet-filled-money-tool.png" alt="" class="ico">&nbsp; $$$  &nbsp;•&nbsp;  <img src="./Images/food-tray.png" alt="" class="ico"> &nbsp;Mexican</p>
+                  <p class="location-1"><img src="./Images/location-pin.png" alt="" class="ico"> 3517 W,Gray St, USA</p>
+                </div>
+
+              </div>
+
+              <div class="rest-view-details" onclick="window.location.href='../Rest/index.html'">
+                
+                <div class="rest-view">
+                  <img src="./Images/8.jpg" alt="" class="hotel-image">
+                  <button class="heart"><i class="fa-solid fa-heart"></i></button>
+                  <p class="offer" style="color: #2DA100;"><img src="./Images/discount.png" alt="" class="discount"> 15% OFF</p>
+                </div>
+
+                <div class="rest-details">
+                  <div class="name-rating">
+                    <p class="name">Manikandan Diner</p>
+                    <p class="rating"><img src="./Images/star.png" alt="" class="star"> 5.0</p>
+                  </div>
+                  <p class="time-price"><img src="./Images/time.png" alt="" class="ico">&nbsp;  20min  &nbsp;•&nbsp;  <img src="./Images/wallet-filled-money-tool.png" alt="" class="ico">&nbsp; $$$  &nbsp;•&nbsp;  <img src="./Images/food-tray.png" alt="" class="ico"> &nbsp;Mexican</p>
+                  <p class="location-1"><img src="./Images/location-pin.png" alt="" class="ico"> 3517 W,Gray St, USA</p>
+                </div>
+                
+              </div>
+
+              <div class="rest-view-details" onclick="window.location.href='../Rest/index.html'">
+                
+                <div class="rest-view">
+                  <img src="./Images/9.jpg" alt="" class="hotel-image">
+                  <button class="heart"><i class="fa-solid fa-heart"></i></button>
+                  <p class="offer" style="color: #2DA100;"><img src="./Images/discount.png" alt="" class="discount"> 15% OFF</p>
+                </div>
+
+                <div class="rest-details">
+                  <div class="name-rating">
+                    <p class="name">Manikandan Diner</p>
+                    <p class="rating"><img src="./Images/star.png" alt="" class="star"> 5.0</p>
+                  </div>
+                  <p class="time-price"><img src="./Images/time.png" alt="" class="ico">&nbsp;  20min  &nbsp;•&nbsp;  <img src="./Images/wallet-filled-money-tool.png" alt="" class="ico">&nbsp; $$$  &nbsp;•&nbsp;  <img src="./Images/food-tray.png" alt="" class="ico"> &nbsp;Mexican</p>
+                  <p class="location-1"><img src="./Images/location-pin.png" alt="" class="ico"> 3517 W,Gray St, USA</p>
+                </div>
+                
+              </div>
+
+            </div>
+            <!-- sub child 3 end -->
+
+          </div>
+          <!-- child 3  end -->
+
+
+
+            <!-- child 3  start -->
+          <div class="child-3">
+
+            <div class="popular-rest-see-all">
+                  <p class="popular-rest">Non-Veg Restaurants</p>
+                  <p class="see-all">See All</p>
+            </div>
+
+            <!-- sub child 3 start -->
+            <div class="sub-child-3">
+
+              <div class="rest-view-details" onclick="window.location.href='../Rest/index.html'">
+                
+                <div class="rest-view">
+                  <img src="./Images/10.jpg" alt="" class="hotel-image">
+                  <button class="heart"><i class="fa-solid fa-heart"></i></button>
+                  <p class="offer" style="color: #2DA100;"><img src="./Images/discount.png" alt="" class="discount"> 15% OFF</p>
+                </div>
+
+                <div class="rest-details">
+                  <div class="name-rating">
+                    <p class="name">Manikandan Diner</p>
+                    <p class="rating"><img src="./Images/star.png" alt="" class="star"> 5.0</p>
+                  </div>
+                  <p class="time-price"><img src="./Images/time.png" alt="" class="ico">&nbsp;  20min  &nbsp;•&nbsp;  <img src="./Images/wallet-filled-money-tool.png" alt="" class="ico">&nbsp; $$$  &nbsp;•&nbsp;  <img src="./Images/food-tray.png" alt="" class="ico"> &nbsp;Mexican</p>
+                  <p class="location-1"><img src="./Images/location-pin.png" alt="" class="ico"> 3517 W,Gray St, USA</p>
+                </div>
+                
+              </div>
+
+              <div class="rest-view-details" onclick="window.location.href='../Rest/index.html'">
+                
+                <div class="rest-view">
+                  <img src="./Images/11.jpg" alt="" class="hotel-image">
+                  <button class="heart"><i class="fa-solid fa-heart"></i></button>
+                  <p class="offer" style="color: #2DA100;"><img src="./Images/discount.png" alt="" class="discount"> 15% OFF</p>
+                </div>
+
+                <div class="rest-details">
+                  <div class="name-rating">
+                    <p class="name">Manikandan Diner</p>
+                    <p class="rating"><img src="./Images/star.png" alt="" class="star"> 5.0</p>
+                  </div>
+                  <p class="time-price"><img src="./Images/time.png" alt="" class="ico">&nbsp;  20min  &nbsp;•&nbsp;  <img src="./Images/wallet-filled-money-tool.png" alt="" class="ico">&nbsp; $$$  &nbsp;•&nbsp;  <img src="./Images/food-tray.png" alt="" class="ico"> &nbsp;Mexican</p>
+                  <p class="location-1"><img src="./Images/location-pin.png" alt="" class="ico"> 3517 W,Gray St, USA</p>
+                </div>
+                
+              </div>
+
+              <div class="rest-view-details" onclick="window.location.href='../Rest/index.html'">
+                
+                <div class="rest-view">
+                  <img src="./Images/12.jpg" alt="" class="hotel-image">
+                  <button class="heart"><i class="fa-solid fa-heart"></i></button>
+                  <p class="offer" style="color: #2DA100;"><img src="./Images/discount.png" alt="" class="discount"> 15% OFF</p>
+                </div>
+
+                <div class="rest-details">
+                  <div class="name-rating">
+                    <p class="name">Manikandan Diner</p>
+                    <p class="rating"><img src="./Images/star.png" alt="" class="star"> 5.0</p>
+                  </div>
+                  <p class="time-price"><img src="./Images/time.png" alt="" class="ico">&nbsp;  20min  &nbsp;•&nbsp;  <img src="./Images/wallet-filled-money-tool.png" alt="" class="ico">&nbsp; $$$  &nbsp;•&nbsp;  <img src="./Images/food-tray.png" alt="" class="ico"> &nbsp;Mexican</p>
+                  <p class="location-1"><img src="./Images/location-pin.png" alt="" class="ico"> 3517 W,Gray St, USA</p>
+                </div>
+                
+              </div>
+
+            </div>
+            <!-- sub child 3 end -->
+
+          </div>
+          <!-- child 3  end -->
+
+         
+        
+    </div>
+    <!-- parent end -->
+
+</body>
+</html>

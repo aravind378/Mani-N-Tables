@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE BOOKING</title>
+
+    <!-- style sheet  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- style sheet  -->
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <!-- google font  -->
+
+    <!-- fontawesome  -->
+    <script src="https://kit.fontawesome.com/4b4d66f7f6.js" crossorigin="anonymous"></script>
+    <!-- fontawesome  -->
+
+    <!-- bootsrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <!-- bootsrap  -->
+
+</head>
+
+<body>
+  <div class="parent">
+    <div class="child">
+      <div class="arrow-btn">
+        <i class="fa-solid fa-arrow-left"></i>
+
+        <div class="share-btn">
+          <i class="fa-solid fa-share-nodes"></i>
+          <i class="fa-solid fa-heart"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="child-1">
+      <iframe width="1060" height="515" src="https://www.youtube.com/embed/xPPLbEFbCAo?si=FPY-1BrvXBO4wbFn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+      <div class="child-2">
+        <div class="offers">
+          <div class="offer">
+            <img src="./images/discount.png" alt="">
+            <p>10% OFF</p>
+          </div>
+          <div class="reviews">
+            <i class="fa-solid fa-star"></i>
+            <p>4.8 (365 reviews)</p>
+          </div>
+        </div>
+
+        <div class="about-of">
+          <p id="liber">LibertyBite Bistro</p>
+
+          <div class="main-items">
+            <div class="time-of">
+              <img src="./images/clock.png" alt="">
+              <p>15 Min</p>
+            </div>
+            <div class="time-of">
+              <img src="./images/money-bag.png" alt="">
+              <p>$$$</p>
+            </div>
+            <div class="time-of">
+              <img src="./images/food-tray.png" alt="">
+              <p>Italian</p>
+            </div>
+            <div class="time-of">
+              <img src="./images/pin.png" alt="">
+              <p>1012 Ocean avanue, New yourk, USA</p>
+            </div>
+          </div>
+
+          <div class="one-btn-1">
+            <button class="book-btn-1" onclick="window.location.href='../Table/third.html'">Book Table</button>
+          </div>
+
+          <div class="four-btns">
+            <button id="menu" onclick="menu()">Menu</button>
+            <button id="about" onclick="about()">About</button>
+            <button id="gallery" onclick="gallery()">Gallery</button>
+            <button id="reviews" onclick="review()">Review</button>
+          </div>
+
+
+          
+
+          <!-- menu div start -->
+            <div class="menu four-div" id="div1" style="display: none;">
+              <p id="men">Menu <span>(10)</span></p>
+
+              <div class="main-foods">
+                <div class="search-bar">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <input type="text" placeholder="Search items">
+                </div>
+
+                <div class="veg-items">
+                  <div class="veg-in">
+                    <img src="./images/1.png" alt="">
+                    <p>Veg</p>
+                  </div>
+
+                  <div class="veg-in">
+                    <img src="./images/2.png" alt="">
+                    <p>Non-Veg</p>
+                  </div>
+
+                  <div class="veg-in">
+                    <p>Bestseller Items</p>
+                  </div>
+
+                  <div class="veg-in">
+                    <p>Top rated Items</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="food-images">
+                <div class="food-image">
+                  <img src="./images/14.png" alt="">
+                  <p>Dosa</p>
+                </div>
+
+                <div class="food-image">
+                  <img src="./images/15.png" alt="">
+                  <p>Idli</p>
+                </div>
+
+                <div class="food-image">
+                  <img src="./images/16.png" alt="">
+                  <p>Pongal</p>
+                </div>
+
+                <div class="food-image">
+                  <img src="./images/17.png" alt="">
+                  <p>Puri</p>
+                </div>
+
+                <div class="food-image">
+                  <img src="./images/18.png" alt="">
+                  <p>Chicken Biriyani</p>
+                </div>
+
+                <div class="food-image">
+                  <img src="./images/19.png" alt="">
+                  <p>Fish Biriyani</p>
+                </div>
+
+                <div class="food-image">
+                  <img src="./images/20.png" alt="">
+                  <p>Mutton Biriyani</p>
+                </div>
+
+                <div class="food-image">
+                  <img src="./images/21.png" alt="">
+                  <p>Sambar Rice</p>
+                </div>
+              </div>
+              
+            </div>
+            <!-- menu div end -->
+
+
+
+              <!-- about div start -->
+              <div class="about four-div" id="div2">
+                <p id="main-about">About</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero modi, dolor at neque officiis odit facilis labore numquam adipisci, dicta odio laudantium deserunt sapiente aspernatur! Atque quidem optio amet reiciendis?</p>
+
+
+                <div class="restaurant">
+                  <p id="rant">Restaurant Contact</p>
+                  <div class="rest-content">
+                    <div class="main-rest">
+                      <img src="./images/lady.png" alt="" class="lady">
+                      <div class="name-of">
+                        <p id="bessie">Bessie Cooper</p>
+                        <p id="owner">Owner</p>
+                      </div>
+                    </div>
+                    <div class="contact-of">
+                      <img src="./images/chat.png" alt="">
+                      <img src="./images/phone-call.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- about div end -->
+
+
+
+              <!-- gallery div start -->
+              <div class="gallery four-div" id="div3" style="display: none;">
+                <p id="gall">Gallery <span>(8)</span></p>
+
+                <div class="gallery-images">
+                  <img src="./images/6.png" alt="">
+                  <img src="./images/7.png" alt="">
+                  <img src="./images/8.png" alt="">
+                  <img src="./images/9.png" alt="">
+                  <img src="./images/10.png" alt="">
+                  <img src="./images/11.png" alt="">
+                  <img src="./images/12.png" alt="">
+                  <img src="./images/13.png" alt="">
+                </div>
+              </div>
+              <!-- gallery div end -->
+
+
+
+              <!-- author div start -->
+              <div class="reviews four-div" id="div4" style="display: none;">
+                <div class="review-box">
+                  <p id="view">Review</p>
+                  
+
+                  <!-- Button trigger modal -->
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn second" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <i class="fa-solid fa-pen-nib"></i> add review
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Leave Review</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="input-review">
+                              <img src="./images/6.png" alt="">
+                              <div class="review-content">
+                                <p id="libe">LibertyBite Bistro</p>
+                                <div class="time-of-1">
+                                  <img src="./images/clock.png" alt="">
+                                  <p>15 Min</p>
+                                </div>
+                                <div class="time-of-1">
+                                  <img src="./images/food-tray.png" alt="">
+                                  <p>Italian</p>
+                                </div>
+                                <div class="time-of-1">
+                                  <img src="./images/pin.png" alt="">
+                                  <p>1012 Ocean avanue, New yourk, USA</p>
+                                </div>
+                              </div>
+                            </div>
+                            <p id="how-is">How is your experience?</p>
+                            <div class="over-all">
+                              <p>Your overall rating</p>
+                              <div class="reviews-images">
+                                <button id="star-btn"><i class="fa-regular fa-star" id="star"></i></button>
+                                <button id="star-btn"><i class="fa-regular fa-star" id="star"></i></button>
+                                <button id="star-btn"><i class="fa-regular fa-star" id="star"></i></button>
+                                <button id="star-btn"><i class="fa-regular fa-star" id="star"></i></button>
+                                <button id="star-btn"><i class="fa-regular fa-star" id="star"></i></button>
+                              </div>
+                            </div>
+
+                            <div class="add-detail">
+                              <p>Add detailed review</p>
+
+                              <textarea name="" id="" placeholder="Enter here"></textarea>
+
+                              <input type="file">
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn second">Submit</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                </div>
+
+                  
+
+
+                <div class="view-review">
+                  <div class="view-of">
+                    <div class="view">
+                      <img src="./images/review.png" alt="">
+                      <p class="dale">Dale Thiel</p>
+                    </div>
+                    <p class="date-of">11 months ago</p>
+                  </div>
+
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus ab unde incidunt sit et tenetur cumque consectetur architecto exercitationem, dignissimos itaque corporis id nostrum tempora natus commodi. Repudiandae, mollitia. Atque.</p>
+                  
+                  <div class="star-image">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                  </div>
+                </div>
+
+                <div class="view-review">
+                  <div class="view-of">
+                    <div class="view">
+                      <img src="./images/review.png" alt="">
+                      <p class="dale">Dale Thiel</p>
+                    </div>
+                    <p class="date-of">11 months ago</p>
+                  </div>
+
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus ab unde incidunt sit et tenetur cumque consectetur architecto exercitationem, dignissimos itaque corporis id nostrum tempora natus commodi. Repudiandae, mollitia. Atque.</p>
+                
+                  <div class="star-image">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                  </div>
+                </div>
+
+                <div class="view-review">
+                  <div class="view-of">
+                    <div class="view">
+                      <img src="./images/review.png" alt="">
+                      <p class="dale">Dale Thiel</p>
+                    </div>
+                    <p class="date-of">11 months ago</p>
+                  </div>
+
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus ab unde incidunt sit et tenetur cumque consectetur architecto exercitationem, dignissimos itaque corporis id nostrum tempora natus commodi. Repudiandae, mollitia. Atque.</p>
+                  
+                  <div class="star-image">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                  </div>
+                </div>
+
+                <div class="view-review">
+                  <div class="view-of">
+                    <div class="view">
+                      <img src="./images/review.png" alt="">
+                      <p class="dale">Dale Thiel</p>
+                    </div>
+                    <p class="date-of">11 months ago</p>
+                  </div>
+
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus ab unde incidunt sit et tenetur cumque consectetur architecto exercitationem, dignissimos itaque corporis id nostrum tempora natus commodi. Repudiandae, mollitia. Atque.</p>
+                  
+                  <div class="star-image">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                  </div>
+                </div>
+
+
+                <div class="view-review">
+                  <div class="view-of">
+                    <div class="view">
+                      <img src="./images/review.png" alt="">
+                      <p class="dale">Dale Thiel</p>
+                    </div>
+                    <p class="date-of">11 months ago</p>
+                  </div>
+
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus ab unde incidunt sit et tenetur cumque consectetur architecto exercitationem, dignissimos itaque corporis id nostrum tempora natus commodi. Repudiandae, mollitia. Atque.</p>
+                  
+                  <div class="star-image">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                  </div>
+                </div>
+
+                <div class="view-review">
+                  <div class="view-of">
+                    <div class="view">
+                      <img src="./images/review.png" alt="">
+                      <p class="dale">Dale Thiel</p>
+                    </div>
+                    <p class="date-of">11 months ago</p>
+                  </div>
+
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus ab unde incidunt sit et tenetur cumque consectetur architecto exercitationem, dignissimos itaque corporis id nostrum tempora natus commodi. Repudiandae, mollitia. Atque.</p>
+                  
+                  <div class="star-image">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                  </div>
+                </div>
+
+                <div class="view-review">
+                  <div class="view-of">
+                    <div class="view">
+                      <img src="./images/review.png" alt="">
+                      <p class="dale">Dale Thiel</p>
+                    </div>
+                    <p class="date-of">11 months ago</p>
+                  </div>
+
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus ab unde incidunt sit et tenetur cumque consectetur architecto exercitationem, dignissimos itaque corporis id nostrum tempora natus commodi. Repudiandae, mollitia. Atque.</p>
+                  
+                  <div class="star-image">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <!-- author div end -->
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="one-btn">
+      <button class="book-btn" onclick="window.location.href='../Table/third.html'">Book Table</button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+
+  <script>
+    var menu_btn = document.getElementById("menu");
+    var about_btn = document.getElementById("about");
+    var gallery_btn = document.getElementById("gallery");
+    var review_btn = document.getElementById("reviews");
+
+    var menu_div = document.getElementById("div1");
+    var about_div = document.getElementById("div2");
+    var gallery_div = document.getElementById("div3");
+    var review_div = document.getElementById("div4");
+
+    function menu() {
+      menu_btn.style.borderBottom = "3px solid var(--primary-color)";
+      menu_btn.style.color = "var(--primary-color)";
+
+      about_btn.style.backgroundColor = "white";
+      about_btn.style.color = "black";
+      about_btn.style.borderBottom = "none";
+      gallery_btn.style.backgroundColor = "white";
+      gallery_btn.style.color = "black";
+      gallery_btn.style.borderBottom = "none";
+      review_btn.style.backgroundColor = "white";
+      review_btn.style.color = "black";
+      review_btn.style.borderBottom = "none";
+
+      menu_div.style.display = "flex";
+      about_div.style.display = "none";
+      gallery_div.style.display = "none";
+      review_div.style.display = "none";
+    }
+
+
+    function about() {
+      about_btn.style.borderBottom = "3px solid var(--primary-color)";
+      about_btn.style.color = "var(--primary-color)";
+
+      menu_btn.style.backgroundColor = "white";
+      menu_btn.style.color = "black";
+      menu_btn.style.borderBottom = "none";
+
+      gallery_btn.style.backgroundColor = "white";
+      gallery_btn.style.color = "black";
+      gallery_btn.style.borderBottom = "none";
+
+      review_btn.style.backgroundColor = "white";
+      review_btn.style.color = "black";
+      review_btn.style.borderBottom = "none";
+
+      menu_div.style.display = "none";
+      about_div.style.display = "flex";
+      gallery_div.style.display = "none";
+      review_div.style.display = "none";
+
+    }
+
+
+
+    function gallery() {
+      gallery_btn.style.borderBottom = "3px solid var(--primary-color)";
+      gallery_btn.style.color = "var(--primary-color)";
+
+      about_btn.style.backgroundColor = "white";
+      about_btn.style.color = "black";
+      about_btn.style.borderBottom = "none";
+      menu_btn.style.backgroundColor = "white";
+      menu_btn.style.color = "black";
+      menu_btn.style.borderBottom = "none";
+      review_btn.style.backgroundColor = "white";
+      review_btn.style.color = "black";
+      review_btn.style.borderBottom = "none";
+
+      menu_div.style.display = "none";
+      about_div.style.display = "none";
+      gallery_div.style.display = "flex";
+      review_div.style.display = "none";
+    }
+
+
+    function review() {
+      review_btn.style.borderBottom = "3px solid var(--primary-color)";
+      review_btn.style.color = "var(--primary-color)";
+
+      about_btn.style.backgroundColor = "white";
+      about_btn.style.color = "black";
+      about_btn.style.borderBottom = "none";
+      gallery_btn.style.backgroundColor = "white";
+      gallery_btn.style.color = "black";
+      gallery_btn.style.borderBottom = "none";
+      menu_btn.style.backgroundColor = "white";
+      menu_btn.style.color = "black";
+      menu_btn.style.borderBottom = "none";
+
+      menu_div.style.display = "none";
+      about_div.style.display = "none";
+      gallery_div.style.display = "none";
+      review_div.style.display = "flex";
+    }
+  </script>
+</body>
+</html>
